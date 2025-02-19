@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results (ignore all instances of bin and obj folders)
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/ARM/
+**/Logs/
+**/logs/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.idb
+*.ilk
+*.log
+*.tlog
+*.cache
+*.scc
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/
