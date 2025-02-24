@@ -1,58 +1,75 @@
-﻿namespace DA204E.A2A
+﻿// Sixten Peterson (AQ9300) 2025-02-16
+namespace DA204E.A2A
 {
+    /// <summary>
+    /// The CostCalculator class handles the logic of the program. To run the program I refer you to the Start() method.
+    /// </summary>
     internal class CostCalculator
     {
+        // Fields
         private double price;
         private int number;
         private double discount;
 
+        /// <summary>
+        /// The start method consits of a do while loop that keeps the program running until the user decides it wants to exit.
+        /// </summary>
         public void Start()
         {
             bool stop = false;
 
             do
             {
+                // Running the different private methods accountable for their own part of the program logic.
                 this.ReadPriceInput();
                 this.ReadUnitNumInput();
                 this.CalculateDiscount();
                 this.WritePricing();
 
+                // Using the ContinueCalculations method to decide if the user wants to stop or continue the program.
                 stop = ContinueCalculation();
-            } while (!stop);
+            } while (!stop); // Keep on iterating until stop is true
         }
 
-
+        /// <summary>
+        /// Asks the user if it wants to continue the program or not. 
+        /// </summary>
+        /// <returns>true if the user wants to exit or flase if the wants to exit. This looks quite unintuitive looking back at it.
+        /// I've opted for a different approach on the following parts of the assignment.</returns>
         private static bool ContinueCalculation()
         {
             Console.WriteLine("Continue? (yes/no or y/n):");
-            String choice = Console.ReadLine();
+            String choice = Console.ReadLine(); // Getting input from user
             Console.WriteLine(); // For white space
 
-            if (!string.IsNullOrEmpty(choice))
+            if (!string.IsNullOrEmpty(choice)) // Checks i the input was not null or empty.
             {
-                choice = choice.ToLower();
+                choice = choice.ToLower(); // Make the choice lowercase to make it easier to compare string values
 
-                if (choice.Equals("yes") || choice.Equals("y"))
+                if (choice.Equals("yes") || choice.Equals("y")) // User wants to continue
                 {
                     return false;
                 }
-                else if (choice.Equals("no") || choice.Equals("n"))
+                else if (choice.Equals("no") || choice.Equals("n")) // User wants to exit
                 {
                     return true;
                 }
-                else
+                else // Input was invalid
                 {
                     Console.WriteLine("Invalid input, please try again.");
-                    return ContinueCalculation();
+                    return ContinueCalculation(); // Ask again using recursion
                 }
             }
-            else
+            else // The input was null or empty
             {
                 Console.WriteLine("Invalid input, please try again.");
-                return ContinueCalculation();
+                return ContinueCalculation(); // Ask again using recursion
             }
         }
 
+        /// <summary>
+        /// Reads the input of the price adn validates it
+        /// </summary>
         private void ReadPriceInput()
         {
             bool isValidPrice = false;
@@ -87,6 +104,9 @@
             } while (!isValidPrice);
         }
 
+        /// <summary>
+        /// Reads the input of the quantity of product.
+        /// </summary>
         private void ReadUnitNumInput()
         {
             bool isValidUnitNum = false;
@@ -121,6 +141,9 @@
             } while (!isValidUnitNum);
         }
 
+        /// <summary>
+        /// Calculates the discount based on the unit number
+        /// </summary>
         private void CalculateDiscount()
         {
             if (this.number >= 10 && this.number <= 19)
@@ -145,6 +168,9 @@
             }
         }
 
+        /// <summary>
+        /// Prints the pricing details based on the previous input that has been done in the program.
+        /// </summary>
         private void WritePricing()
         {
             Console.WriteLine(); // For white space
@@ -156,8 +182,7 @@
             String formattedDiscountApplied = String.Format("Discount Applied: {0:f2} %", this.discount);
             Console.WriteLine(formattedDiscountApplied);
 
-            // TODO: Handle case where product is below 10 and thefor has 0% discount
-            double finalTotalCost = 0;
+            double finalTotalCost = 0; // Keeping track of the final discount, will be updated below
 
             // If the discount is zero we dont want to multiply by zero, instead just assign the finalTotalCost without a discount.
             if (discount == 0)
@@ -167,7 +192,7 @@
             else
             {
                 double discountChangeFactor = discount / 100.0; // Example: 40.0 / divided by 100.0 => 0.4 which can be used to calculate the discounted price
-                finalTotalCost = (this.price * discountChangeFactor) * this.number;
+                finalTotalCost = (this.price * discountChangeFactor) * this.number; // Simple calculations
             }
 
             String formattedFinalTotalCost = String.Format("Final Total Cost: {0:C}", finalTotalCost);

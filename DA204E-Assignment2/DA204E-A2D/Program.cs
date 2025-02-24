@@ -1,10 +1,14 @@
-﻿namespace DAE204E.A2D
+﻿// Sixten Peterson (AQ9300) 2025-02-24
+using DA204E.A2D;
+
+namespace DAE204E.A2D
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Scheduler scheduler = new Scheduler();
+            scheduler.Start();
         }
     }
 }

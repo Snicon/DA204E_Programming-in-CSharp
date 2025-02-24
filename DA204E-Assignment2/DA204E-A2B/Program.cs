@@ -1,4 +1,5 @@
-﻿namespace DAE204E.A2B
+﻿// Sixten Peterson (AQ9300) 2025-02-17
+namespace DAE204E.A2B
 {
     internal class Program
     {
