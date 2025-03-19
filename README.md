@@ -18,15 +18,15 @@ To be added.
 ## Progress & grades
 
 ### Assignments
-Currently not fully accurate, will be edited later... Only the first two assignemnts are accurate, need to double check the rest.
+Currently not fully accurate, will be edited later... Only the first four assignments are accurate, need to double check the rest.
 
 | Assignment   | Handed in | Grade      | Best possible grade |
 |--------------|-----------|------------|---------------------|
 | Assignment 1 | &#9745;   | A          | A                   |
-| Assignment 2 | &#9744;   | -          | A                   |
-| Assignment 3 | &#9744;   | -          | A                   |
+| Assignment 2 | &#9745;   | A          | A                   |
+| Quiz 1       | &#9745;   | A          | A                   |
+| Assignment 3 | &#9745;   | -          | A                   |
 | Assignment 4 | &#9744;   | -          | A                   |
-| Quizzes      | &#9744;   | -          | A                   |
 
 ### Final grade
 To be determined.
