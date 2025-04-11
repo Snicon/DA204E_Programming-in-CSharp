@@ -30,6 +30,9 @@ More or less the same as A2C but without the conversion calculation, I use a for
 This assignment tackles the use of Windows Forms for making a GUI. The program involves calculating the recommended daily water intake for a person based on data provided in text boxes, radio buttons and combo boxes.
 Additionally the second part of the application is a retirement savings calculator. Throughout the assignment there has been a focus on using enums and validation. Though the UX is not the best with popups for failed validation its within the requirements of the assignment.
 
+### Assignment 4AB
+This assignment introduces arrays, properties (auto-implemented properties are disallowed), images and list boxes in windows forms. The application being built in the assignment is a recipe manager where the user may add recipes to a recipe list. Ingredients and recipes are being stored in arrays.
+
 ## Progress & grades
 
 ### Assignments
@@ -39,8 +42,8 @@ Additionally the second part of the application is a retirement savings calculat
 | Assignment 1 | &#9745;   | A          | A                   |
 | Assignment 2 | &#9745;   | A          | A                   |
 | Quiz 1       | &#9745;   | A          | A                   |
-| Assignment 3 | &#9745;   | -          | A                   |
-| Assignment 4 | &#9744;   | -          | A                   |
+| Assignment 3 | &#9745;   | A          | A                   |
+| Assignment 4 | &#9745;   | -          | A                   |
 | Quiz 2       | &#9744;   | -          | A                   |
 | Assignment 5 | &#9744;   | -          | A                   |
 | Assignment 6 | &#9744;   | -          | A                   |
