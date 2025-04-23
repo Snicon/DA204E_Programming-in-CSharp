@@ -73,7 +73,13 @@ namespace DA204E_Assignment5.ContactFiles
         public string City
         {
             get { return this.city; }
-            set { this.city = value; }
+            set
+            { 
+                if (!String.IsNullOrEmpty(value))
+                {
+                    this.city = value;
+                }
+            }
         }
 
         /// <summary>

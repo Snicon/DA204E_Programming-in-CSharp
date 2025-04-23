@@ -17,7 +17,7 @@ namespace DA204E_Assignment5.ContactFiles
         /// Property related to the address field
         /// </summary>
         public Address Address {
-            get => address; set => address = value;
+            get => this.address; set => this.address = value;
         }
 
         /// <summary>
@@ -32,7 +32,14 @@ namespace DA204E_Assignment5.ContactFiles
         /// Property related to the firstName field
         /// </summary>
         public string FirstName {
-            get => firstName; set => firstName = value;
+            get => this.firstName;
+            set
+            {
+                if (!String.IsNullOrEmpty(value))
+                {
+                    this.firstName = value;
+                }
+            }
         }
 
         /// <summary>
@@ -40,14 +47,21 @@ namespace DA204E_Assignment5.ContactFiles
         /// </summary>
         public string LastName
         {
-            get => lastName; set => lastName = value;
+            get => this.lastName;
+            set
+            {
+                if(!String.IsNullOrEmpty(value))
+                {
+                    this.lastName = value;
+                }
+            }
         }
 
         /// <summary>
         /// Property rleated to the phone field
         /// </summary>
         public Phone Phone {
-            get => phone; set => phone = value;
+            get => this.phone; set => this.phone = value;
         }
 
         // Default constructor, does nothing. Results in an empty contact object
