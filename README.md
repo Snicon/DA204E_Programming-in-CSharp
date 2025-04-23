@@ -1,5 +1,5 @@
 # DA204E (Spring 25) - [Programming in C#](https://mau.se/en/study-education/course/da204e) @ [MAU](https://mau.se/en/)
-This is an introductionary course to programming in C#. In this course we are learning C# with simple OOP principles and Windows Froms / GUI application development. The course consits of multiple assignements grouped into two groups as far as grading goes along with two quizzes graded together.
+This is an introductory course to programming in C#. In this course we are learning C# with simple OOP principles and Windows Forms / GUI application development. The course consists of multiple assignments grouped into two groups as far as grading goes along with two quizzes graded together.
 
 ## Structure
 This repo contains all the assignments I've worked on along with a some smaller optional projects on the side. Each assignment is in its own folder.
@@ -21,7 +21,7 @@ Calculates discounts based on the amount of units the user decides to buy.
 Lets the user guess a number. There are multiple difficulties which limit the amount of guesses the user can make.
 
 #### A2C
-Consits of using some very simple built-in methods for strings like ToUpper(). It also consists of a temperature converter than prints out a conversion table in a neat format.
+Consists of using some very simple built-in methods for strings like ToUpper(). It also consists of a temperature converter than prints out a conversion table in a neat format.
 
 #### A2D
 More or less the same as A2C but without the conversion calculation, I use a for loop and some very basic math to determine which weeks the user is working.
@@ -32,6 +32,9 @@ Additionally the second part of the application is a retirement savings calculat
 
 ### Assignment 4AB
 This assignment introduces arrays, properties (auto-implemented properties are disallowed), images and list boxes in windows forms. The application being built in the assignment is a recipe manager where the user may add recipes to a recipe list. Ingredients and recipes are being stored in arrays.
+
+### Assignment 5AB
+This assignment introduces constructor chaining and Lists, additionally the reading material touches on better encapsulation and OOP. The application built this time is a customer registry that stores customer contact details. All in all this assignment feels much like repetition of assignment 4AB but with the introduction of lists and constructor chaining.
 
 ## Progress & grades
 
@@ -44,8 +47,8 @@ This assignment introduces arrays, properties (auto-implemented properties are d
 | Quiz 1       | &#9745;   | A          | A                   |
 | Assignment 3 | &#9745;   | A          | A                   |
 | Assignment 4 | &#9745;   | -          | A                   |
-| Quiz 2       | &#9744;   | -          | A                   |
-| Assignment 5 | &#9744;   | -          | A                   |
+| Quiz 2       | &#9745;   | A          | A                   |
+| Assignment 5 | &#9745;   | -          | A                   |
 | Assignment 6 | &#9744;   | -          | A                   |
 | Quiz 3       | &#9744;   | -          | A                   |
 | Assignment 7 | &#9744;   | -          | A                   |
