@@ -49,7 +49,7 @@ namespace DA204E_Assignment4
         {
             txtRecipeName.Clear();
             cmbCategory.SelectedIndex = (int)FoodCategory.Meat;
-            this.currentRecipe = new Recipe(MAX_INGREDIENTS);
+            this.currentRecipe = new Recipe(MaxIngredients);
             lstRecipes.ClearSelected();
             rtxtDescription.Text = String.Empty;
             picRecipeImage.Image = null;
@@ -174,7 +174,7 @@ namespace DA204E_Assignment4
         {
             int index = lstRecipes.SelectedIndex;
 
-            if (index >= 0 && index <= MAX_RECIPES)
+            if (index >= 0 && index <= MaxRecipes)
             {
                 bool successfulRemoval = this.recipeManager.RemoveRecipe(index);
                 
@@ -198,7 +198,7 @@ namespace DA204E_Assignment4
             int index = lstRecipes.SelectedIndex;
 
             Recipe recipe = this.recipeManager.FetchRecipe(index);
-            recipe.Name = txtRecipeName.Text.Trim(); // TODO: Move out to its own method
+            recipe.Name = txtRecipeName.Text.Trim();
             recipe.Category = (FoodCategory)cmbCategory.SelectedIndex;
 
             // Make sure the list is updated with the modified data, also takes care of any edited ingredients/descriptions

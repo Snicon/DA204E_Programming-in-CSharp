@@ -143,6 +143,7 @@
             // 
             rtxtDescription.Location = new Point(333, 27);
             rtxtDescription.Name = "rtxtDescription";
+            rtxtDescription.ReadOnly = true;
             rtxtDescription.Size = new Size(306, 317);
             rtxtDescription.TabIndex = 12;
             rtxtDescription.Text = "";
