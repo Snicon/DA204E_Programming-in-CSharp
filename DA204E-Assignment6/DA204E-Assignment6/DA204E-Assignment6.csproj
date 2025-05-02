@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>DA204E_Assignment6</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+	<AssemblyTitle>ToDo Reminder by Sixten Peterson</AssemblyTitle>
+	<AssemblyCompany>WinterZone AB</AssemblyCompany>
+	<AssemblyProduct>ToDo Reminder</AssemblyProduct>
+	<AssemblyVersion>1.0.0.0</AssemblyVersion>
+	<AssemblyFileVersion>1.0.0.0</AssemblyFileVersion>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<ApplicationIcon>todo_app.ico</ApplicationIcon>
+	<Description>This application is made for assignment 6 in the C# Programming course at Malmö University (DA204E). This program is a todo reminder application, it supports exporting and importing tasks with the help of .txt files. There is an inbuilt clock amongst other features.</Description>
+	<Copyright>Copyright © 2025 Sixten Peterson (code), Moa Sjöblom (images, all made by my beautiful girlfriend)</Copyright>
+	<Company>WinterZone AB</Company>
+	<Product>ToDo Reminder</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\icon.ico" />
+    <None Remove="todo_app.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="todo_app.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -36,6 +36,9 @@ This assignment introduces arrays, properties (auto-implemented properties are d
 ### Assignment 5AB
 This assignment introduces constructor chaining and Lists, additionally the reading material touches on better encapsulation and OOP. The application built this time is a customer registry that stores customer contact details. All in all this assignment feels much like repetition of assignment 4AB but with the introduction of lists and constructor chaining.
 
+### Assignment 6ABC
+This assignment has by far been the most interesting one yet. While building upon the foundations previously established in assignment 4 and 5 it also adds a lot of new concepts. Tooltips, Timers, Assembly information, Resources and lastly reading and writing to files, in this case .txt files. The application built in this assignment is a task management/todo reminder app.
+
 ## Progress & grades
 
 ### Assignments
@@ -49,7 +52,7 @@ This assignment introduces constructor chaining and Lists, additionally the read
 | Assignment 4 | &#9745;   | -          | A                   |
 | Quiz 2       | &#9745;   | A          | A                   |
 | Assignment 5 | &#9745;   | -          | A                   |
-| Assignment 6 | &#9744;   | -          | A                   |
+| Assignment 6 | &#9745;   | -          | A                   |
 | Quiz 3       | &#9744;   | -          | A                   |
 | Assignment 7 | &#9744;   | -          | A                   |
 
