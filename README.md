@@ -43,18 +43,19 @@ This assignment has by far been the most interesting one yet. While building upo
 
 ### Assignments
 
-| Assignment   | Handed in | Grade      | Best possible grade |
-|--------------|-----------|------------|---------------------|
-| Assignment 1 | &#9745;   | A          | A                   |
-| Assignment 2 | &#9745;   | A          | A                   |
-| Quiz 1       | &#9745;   | A          | A                   |
-| Assignment 3 | &#9745;   | A          | A                   |
-| Assignment 4 | &#9745;   | -          | A                   |
-| Quiz 2       | &#9745;   | A          | A                   |
-| Assignment 5 | &#9745;   | -          | A                   |
-| Assignment 6 | &#9745;   | -          | A                   |
-| Quiz 3       | &#9744;   | -          | A                   |
-| Assignment 7 | &#9744;   | -          | A                   |
+| Assignment        | Handed in | Grade      | Best possible grade |
+|-------------------|-----------|------------|---------------------|
+| Assignment 1      | &#9745;   | A          | A                   |
+| Assignment 2      | &#9745;   | A          | A                   |
+| Quiz 1            | &#9745;   | A          | A                   |
+| Assignment 3      | &#9745;   | A          | A                   |
+| Assignment 4      | &#9745;   | A          | A                   |
+| Quiz 2            | &#9745;   | A          | A                   |
+| Assignment 5      | &#9745;   | -          | A                   |
+| Assignment 6      | &#9745;   | -          | A                   |
+| Quiz 3       	    | &#9745;   | A          | A                   |
+| Assignment 7 pt 1 | &#9745;   | A          | A                   |
+| Assignment 7 pt 2 | &#9744;   | -          | A                   |
 
 ### Final grade
 To be determined.
