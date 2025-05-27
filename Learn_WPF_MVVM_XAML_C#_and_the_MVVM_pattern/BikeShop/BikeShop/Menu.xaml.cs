@@ -38,5 +38,12 @@ namespace BikeShop
                 new Uri("/Discussion.xaml", UriKind.Relative)
             );
         }
+
+        private void RedirectProducts(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(
+                new Uri("/ProductsManagement.xaml", UriKind.Relative)
+            );
+        }
     }
 }
