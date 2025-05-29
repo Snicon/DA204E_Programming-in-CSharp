@@ -1,0 +1,24 @@
+﻿<Window xmlns:vm="clr-namespace:DA204E_Assignment7.ViewModels"
+        x:Class="DA204E_Assignment7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DA204E_Assignment7.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        d:DataContext="{d:DesignInstance vm:MainWindowViewModel}">
+    <Grid>
+        <StackPanel VerticalAlignment="Top">
+            <DockPanel Height="18" >
+                <Menu DockPanel.Dock="Top" Background="#f9a8d4">
+                    <MenuItem Header="Navigate" FontWeight="Bold">
+                        <MenuItem Header="Scale Converter" Command="{Binding NavigateScaleCommand}" FontWeight="Normal" />
+                        <MenuItem Header="QR Code Generator" Command="{Binding NavigateQrCodeCommand}" FontWeight="Normal" />
+                    </MenuItem>
+                </Menu>
+            </DockPanel>
+            <Frame Source="{Binding Source}" NavigationUIVisibility="Hidden" />
+        </StackPanel>
+    </Grid>
+</Window>
