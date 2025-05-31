@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿// Sixten Peterson (AQ9300) 2025-05-26
+using System.ComponentModel;
 
 namespace DA204E_Assignment7
 {

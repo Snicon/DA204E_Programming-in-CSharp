@@ -4,7 +4,7 @@ using DA204E_Assignment7.Models;
 namespace DA204E_Assignment7.ViewModels
 {
     /// <summary>
-    /// ViewModel for the Scale View, implements Notifier for easier notification of ui updates.
+    /// ViewModel for the Scale View, implements Notifier for easier notification of required ui updates.
     /// The logic in this class includes adding all scales that will be used in conversion,
     /// as well as ui clearing and calculations.
     /// </summary>
