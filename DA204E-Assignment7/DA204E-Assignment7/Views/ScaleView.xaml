@@ -10,7 +10,7 @@
       Title="ScaleView"
       d:DataContext="{d:DesignInstance vm:ScaleViewModel}">
 
-    <Grid Margin="150 40">
+    <Grid Margin="150 20">
         <StackPanel Orientation="Horizontal">
             <StackPanel>
                 <TextBlock Text="Scale" />

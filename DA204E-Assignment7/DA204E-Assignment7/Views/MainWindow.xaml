@@ -7,6 +7,7 @@
         xmlns:local="clr-namespace:DA204E_Assignment7.Views"
         mc:Ignorable="d"
         Title="WinterZone Workshop" Height="450" Width="800"
+        ResizeMode="NoResize"
         d:DataContext="{d:DesignInstance vm:MainWindowViewModel}">
     <Grid>
         <Grid.ColumnDefinitions>
