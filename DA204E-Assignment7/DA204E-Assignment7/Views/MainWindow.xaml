@@ -6,10 +6,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DA204E_Assignment7.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="WinterZone Workshop" Height="450" Width="800"
         d:DataContext="{d:DesignInstance vm:MainWindowViewModel}">
     <Grid>
-        <StackPanel VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="23*"/>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="728*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Top" Grid.ColumnSpan="3">
             <DockPanel Height="18" >
                 <Menu DockPanel.Dock="Top" Background="#f9a8d4">
                     <MenuItem Header="Navigate" FontWeight="Bold">
