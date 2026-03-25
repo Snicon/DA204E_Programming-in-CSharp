@@ -55,7 +55,7 @@ This assignment has by far been the most interesting one yet. While building upo
 | Assignment 6      | &#9745;   | A          | A                   |
 | Quiz 3       	    | &#9745;   | A          | A                   |
 | Assignment 7 pt 1 | &#9745;   | A          | A                   |
-| Assignment 7 pt 2 | &#9744;   | -          | A                   |
+| Assignment 7 pt 2 | &#9744;   | A          | A                   |
 
 ### Final grade
-To be determined.
+A
